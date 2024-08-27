@@ -1,0 +1,25 @@
+.cabeçalho__menu-hamburguer{
+    width:24px; /*Largura do ícone */
+    height:24px; /*Altura do ícone */
+    display: inline-block;/* Exibe o ícone como um bloco inline */
+    background-image: url("../img/Menu..svg"); /*Define aa imagem de fundo */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo seja repetia */
+    background-position: center; /* Centralizar a imagem de fundo dentro de bloco */
+
+}
+.cabeçalho{
+    background-color: var(--branco); /* Define a cor e funo do cabeçalho*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    poition: relative;
+
+}
+.container{
+display: flex; /* Define o layout do contêINER COMO FLEXBOX */
+align-items: center;
+
+}
+.container__imagem{
+    padding: 1em; /*Adiciona um espaçamento ao redor de imagem */
+}
