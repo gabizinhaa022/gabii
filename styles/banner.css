@@ -12,4 +12,19 @@
 }
 .banner__pesquisa{
     background-color: transparent;
-    border: 1px solid var(--)
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radiu: 24px;
+    padding: 1em;
+    width: 100%;
+    {
+.banne__pesquisa::placeholder{
+    font-family: var(--fonte-princial);
+    font-side: 14px;
+    font-weight: 400;
+    text-aling: center;
+    color: var(--branco);
+    background: url( '../img/lupa.svg') no-repeat;
+    background-position: 1em;)
+}
+    }
